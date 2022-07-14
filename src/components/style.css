@@ -1,0 +1,21 @@
+.first-row{
+    background-color: #EEEEEE;
+    margin-bottom: 30px;
+    height: 800px;
+
+}
+.first-col{
+    margin-top: 200px;
+}
+
+.first-row-first-div{
+    width: 500px;
+    position: relative;
+    margin-left: 5%;
+}
+
+.first-row-form{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
