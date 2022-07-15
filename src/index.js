@@ -4,11 +4,14 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import MainComponent from "./MainComponent";
+import { ChakraProvider } from '@chakra-ui/react'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
-        <MainComponent/>
+        <ChakraProvider>
+            <MainComponent/>
+        </ChakraProvider>
     </>
 );
 
