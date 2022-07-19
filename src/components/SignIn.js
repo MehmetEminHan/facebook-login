@@ -9,8 +9,9 @@ import {
     ModalFooter,
     ModalBody,
     ModalCloseButton, useDisclosure, Input,
-    FormControl, FormLabel, Select, Checkbox,
+    FormControl, FormLabel, Select,
 } from '@chakra-ui/react'
+
 const SignIn = () => {
     const {isOpen, onOpen, onClose} = useDisclosure();
     return (
@@ -123,20 +124,23 @@ const SignIn = () => {
 
                                 </Select>
                                 <div className="mt-3">
-                                    <input className="form-check-input" type="radio" name="flexRadioDefault"
+                                    <input className="form-check-input " type="radio" name="flexRadioDefault"
                                            id="flexRadioDefault1"/>
-                                    <label className="form-check-label" htmlFor="flexRadioDefault1">
-                                        Default radio
+                                    <label className="form-check-label" style={{marginRight: "5px"}}
+                                           htmlFor="flexRadioDefault1">
+                                        Female
                                     </label>
                                     <input className="form-check-input" type="radio" name="flexRadioDefault"
                                            id="flexRadioDefault1"/>
-                                    <label className="form-check-label" htmlFor="flexRadioDefault1">
-                                        Default radio
+                                    <label className="form-check-label" style={{marginRight: "5px"}}
+                                           htmlFor="flexRadioDefault1">
+                                        Male
                                     </label>
                                     <input className="form-check-input" type="radio" name="flexRadioDefault"
                                            id="flexRadioDefault1"/>
-                                    <label className="form-check-label" htmlFor="flexRadioDefault1">
-                                        Default radio
+                                    <label className="form-check-label" style={{marginRight: "5px"}}
+                                           htmlFor="flexRadioDefault1">
+                                        Custom
                                     </label>
                                 </div>
 
